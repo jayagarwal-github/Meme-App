@@ -21,4 +21,4 @@ For any inquiries or feedback, you can reach out to us at:-
 
 Gmail :- jayagarwal634@gmail.com
 
-LinkedIn :- https://www.linkedin.com/in/jay-agarwal-aaa251219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+LinkedIn :- https://www.linkedin.com/in/jay-agarwal-aaa251219
