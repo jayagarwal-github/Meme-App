@@ -1,5 +1,6 @@
 package com.example.memeapp
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -115,6 +116,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    @SuppressLint("ResourceType")
     fun Previous(view: View) {
         if (a <= 0) {
             Toast.makeText(this@MainActivity, "You haven't watched any previous memes", Toast.LENGTH_SHORT).show()
@@ -146,6 +148,8 @@ class MainActivity : AppCompatActivity() {
                 return false
             }
         }).into(imageView)
+
+
     }
 
 }
