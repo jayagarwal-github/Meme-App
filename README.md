@@ -10,7 +10,7 @@ Meme App is a fun and easy-to-use Android application that allows users to explo
 - Share your favorite memes with friends via various social media platforms or messaging apps.
 
 ### Technologies Used
-- Integration with Meme API for meme retrieval.
+- Integration with Meme API for meme retrieval (API Link : https://meme-api.com/gimme). 
 - Implementation of share functionality.
 
 ### Contributions
