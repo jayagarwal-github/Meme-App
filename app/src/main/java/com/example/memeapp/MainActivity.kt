@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                     override fun onLoadFailed(
                         e: GlideException?,
                         model: Any?,
-                        target: Target<Drawable>?,
+                        target: Target<Drawable>,
                         isFirstResource: Boolean
                     ): Boolean {
                         progressBar.visibility = View.GONE
@@ -66,10 +66,10 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     override fun onResourceReady(
-                        resource: Drawable?,
-                        model: Any?,
+                        resource: Drawable,
+                        model: Any,
                         target: Target<Drawable>?,
-                        dataSource: DataSource?,
+                        dataSource: DataSource,
                         isFirstResource: Boolean
                     ): Boolean {
                         progressBar.visibility = View.GONE
@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
             override fun onLoadFailed(
                 e: GlideException?,
                 model: Any?,
-                target: Target<Drawable>?,
+                target: Target<Drawable>,
                 isFirstResource: Boolean
             ): Boolean {
                 progressBar.visibility = View.GONE
@@ -138,10 +138,10 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onResourceReady(
-                resource: Drawable?,
-                model: Any?,
+                resource: Drawable,
+                model: Any,
                 target: Target<Drawable>?,
-                dataSource: DataSource?,
+                dataSource: DataSource,
                 isFirstResource: Boolean
             ): Boolean {
                 progressBar.visibility = View.GONE
