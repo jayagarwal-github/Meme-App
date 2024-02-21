@@ -1,4 +1,4 @@
-## Meme App
+<h1>Meme App</h1>
 
 ### Overview
 Meme App is a fun and easy-to-use Android application that allows users to explore a wide variety of memes fetched dynamically through the Meme API. Say goodbye to repeated memes! With Meme App, you'll enjoy a fresh selection of memes every time you open the app during the current session. Plus, you can navigate seamlessly between memes with previous and next buttons, ensuring endless entertainment without the hassle of repetitive content.
